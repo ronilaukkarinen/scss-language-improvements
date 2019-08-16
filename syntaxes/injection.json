@@ -1,0 +1,31 @@
+{
+	"scopeName": "propfix.injection",
+	"injectionSelector": "L:meta.property-list.scss",
+	"patterns": [
+		
+		{
+			"include": "#selector" 
+		},
+		{
+			"include": "#property_names"
+		}
+		
+	],
+	"repository": {
+		"selector": {
+			"match": "(?xi)(content|cursor|filter|font|mask)(?!(:+)(?: after|before|first-letter|first-line|backdrop|content|grammar-error|marker|placeholder|selection|shadow|spelling-error|active|any-link|checked|default|disabled|empty|enabled|first|(?:nth|nth-last|first|last|only)-(?: child|of-type)|focus|focus-within|fullscreen|host|hover|in-range|indeterminate|invalid|left|link|optional|out-of-range|read-only|read-write|required|right|root|scope|target|unresolved|valid|visited)|\\s*{)",
+			"name": "support.type.property-name.css"
+		},
+		"property_names": {
+			"match": "(content|cursor|filter|font|mask)",
+			"captures" : {
+				"1": {
+					"name":"entity.name.tag.css"
+				},
+				"2": {
+					"name":"punctuation.separator.key-value.scss"
+				}
+			}
+		}
+	}
+}

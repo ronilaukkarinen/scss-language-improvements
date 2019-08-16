@@ -1,0 +1,20 @@
+{
+    "name": "scss-language-improvements",
+    "displayName": "SCSS Language Improvements",
+    "description": "Fixing some of the shortfalls of the SCSS Language Basics",
+    "version": "1.0.0",
+    "publisher": "cssinate",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "grammars": [{
+            "path": "./syntaxes/injection.json",
+            "scopeName": "propfix.injection",
+            "injectTo": ["source.css.scss"]
+        }]
+    }
+}
