@@ -4,6 +4,8 @@
     "description": "Fixing some of the shortfalls of the SCSS Language Basics",
     "version": "1.0.0",
     "publisher": "cssinate",
+    "license": "MIT",
+    "repository": "github:cssinate/scss-language-improvements",
     "engines": {
         "vscode": "^1.37.0"
     },
