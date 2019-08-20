@@ -19,6 +19,10 @@ VSCode takes its SASS language definition directionly from the Atom language def
 
 This code change targets specifically those problematic words. This plugin first considers them property names by default, but once they're followed by a curly brace, pseudo-element or pseudo-selector, they resolve to selectors.
 
+### 1.0.1
+
+Removing some redundant code
+
 ### 1.0.0
 
 Initial release of scss-language-improvements
