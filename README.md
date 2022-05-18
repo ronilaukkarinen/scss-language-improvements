@@ -9,7 +9,7 @@ Have you ever noticed that some properties in your SCSS files are oddly-colored 
 This small extension solves that issue.
 
 ## Why does this happen in the first place?
-The words "content" "cursor" "filter" "font" and "mask" are all words that have been identified as selectors (https://github.com/atom/language-css/blob/master/grammars/css.cson#L2056) and property names (https://github.com/atom/language-css/blob/master/grammars/css.cson#L1488).
+The words "content" "cursor" "filter" "font" and "mask" are all words that have been identified as [selectors](https://github.com/atom/language-css/blob/master/grammars/css.cson#L2056) and [property names](https://github.com/atom/language-css/blob/master/grammars/css.cson#L1488).
 
 ## Why isn't this in the real language pack?
 
@@ -18,11 +18,3 @@ VSCode takes its SASS language definition directionly from the Atom language def
 ## How does it work?
 
 This code change targets specifically those problematic words. This plugin first considers them property names by default, but once they're followed by a curly brace, pseudo-element or pseudo-selector, they resolve to selectors.
-
-### 1.0.1
-
-Removing some redundant code
-
-### 1.0.0
-
-Initial release of scss-language-improvements
