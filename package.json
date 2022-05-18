@@ -2,10 +2,10 @@
     "name": "scss-language-improvements",
     "displayName": "SCSS Language Improvements",
     "description": "Fixing some of the shortfalls of the SCSS Language Basics",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "publisher": "ronilaukkarinen",
     "license": "MIT",
-    "repository": "https://github.com/cssinate/scss-language-improvements",
+    "repository": "https://github.com/ronilaukkarinen/scss-language-improvements",
     "engines": {
         "vscode": "^1.37.0"
     },
