@@ -1,3 +1,7 @@
+### 1.0.5: 2022-05-18
+
+* Add unique injection ID
+
 ### 1.0.4: 2022-05-18
 
 * Clean up README, combine CHANGELOG
