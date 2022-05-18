@@ -2,7 +2,7 @@
     "name": "scss-language-improvements",
     "displayName": "SCSS Language Improvements",
     "description": "Fixing some of the shortfalls of the SCSS Language Basics",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "ronilaukkarinen",
     "license": "MIT",
     "repository": "https://github.com/cssinate/scss-language-improvements",
@@ -13,10 +13,14 @@
         "Programming Languages"
     ],
     "contributes": {
-        "grammars": [{
-            "path": "./syntaxes/injection.json",
-            "scopeName": "propfix.injection",
-            "injectTo": ["source.css.scss"]
-        }]
+        "grammars": [
+            {
+                "path": "./syntaxes/injection.json",
+                "scopeName": "propfix.injection",
+                "injectTo": [
+                    "source.css.scss"
+                ]
+            }
+        ]
     }
 }
