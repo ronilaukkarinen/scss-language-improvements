@@ -1,3 +1,7 @@
+### 1.0.6: 2022-05-18
+
+* Bump version
+
 ### 1.0.5: 2022-05-18
 
 * Add unique injection ID
