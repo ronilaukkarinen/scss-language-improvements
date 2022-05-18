@@ -1,9 +1,3 @@
-# Change Log
+### 1.0.3: 2022-05-18
 
-All notable changes to the "scss-language-improvements" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+* Publish fork of [https://github.com/cssinate/scss-language-improvements](https://github.com/cssinate/scss-language-improvements)
