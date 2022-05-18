@@ -1,3 +1,7 @@
+### 1.0.4: 2022-05-18
+
+* Clean up README, combine CHANGELOG
+
 ### 1.0.3: 2022-05-18
 
 * Publish fork of [https://github.com/cssinate/scss-language-improvements](https://github.com/cssinate/scss-language-improvements)
