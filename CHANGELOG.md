@@ -1,3 +1,7 @@
+### 1.1.0: 2022-05-19
+
+* Ensure only attributes are selected by adding colon to regex
+
 ### 1.0.9: 2022-05-19
 
 * Bump version to 1.0.9
@@ -6,7 +10,6 @@
 ### 1.0.8: 2022-05-19
 
 * Add new screenshot and usage instructions
-* Ensure only attributes are selected by adding colon to regex
 * Add icon for extension
 * Add explanation to README.md
 
