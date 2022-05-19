@@ -2,7 +2,7 @@
     "name": "scss-language-improvements",
     "displayName": "SCSS Language Improvements",
     "description": "Fixing some of the shortfalls of the SCSS Language Basics",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "publisher": "ronilaukkarinen",
     "icon": "icon.png",
     "license": "MIT",
