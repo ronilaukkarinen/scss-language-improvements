@@ -1,6 +1,7 @@
 ### 1.0.8: 2022-05-19
 
 * Add icon for extension
+* Add explanation to README.md
 
 ### 1.0.7: 2022-05-18
 
