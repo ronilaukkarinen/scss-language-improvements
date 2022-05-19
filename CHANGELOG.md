@@ -1,5 +1,7 @@
 ### 1.0.8: 2022-05-19
 
+* Add new screenshot and usage instructions
+* Ensure only attributes are selected by adding colon to regex
 * Add icon for extension
 * Add explanation to README.md
 
