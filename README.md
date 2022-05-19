@@ -6,7 +6,7 @@ This extension attempts to fix the SCSS related syntax highlighting issue as des
 
 Have you ever noticed that some properties in your SCSS files are oddly-colored by your syntax highlighter?
 
-![content and cursor properties are colored incorrectly](https://github.com/ronilaukkarinen/scss-language-improvements/raw/HEAD/example.png)
+
 
 This small extension solves that issue.
 
